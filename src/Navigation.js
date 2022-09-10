@@ -3,21 +3,21 @@ import "./Navigation.css"
 
 function Navigation() {
   return (
-    <nav className="Navigation navbar-expand-md container-fluid ms-auto">
-      <NavLink key="hompage" to="/">
-        ID
+    <nav className="Navigation navbar navbar-expand-sm bg-light">
+      <NavLink key="hompage" to="/" class="left-nav">
+        Ian Dao
       </NavLink>
-      <div className="Navigation-links ms-auto">
-        <NavLink key="projects" to="/projects">
-          My Projects
-        </NavLink>
-        <NavLink key="about" to="/about">
+      <span className="navbar-nav ml-auto">
+        <NavLink key="about" to="/about" class="nav-item">
           About Me
         </NavLink>
-        <NavLink key="connect" to="/connect">
+        <NavLink key="projects" to="/projects" class="nav-item">
+          My Projects
+        </NavLink>
+        <NavLink key="connect" to="/connect" class="nav-item">
           Connect
         </NavLink>
-      </div>
+      </span>
     </nav>
   );
 }

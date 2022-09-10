@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Homepage from "./Homepage";
-import Projects from "./Projects";
-import About from "./About";
-import Connect from "./Connect";
+import Homepage from "./pages/Homepage";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Connect from "./pages/Connect";
 
 
 

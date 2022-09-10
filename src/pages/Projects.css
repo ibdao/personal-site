@@ -1,0 +1,14 @@
+div.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position:relative;
+    top:50px;
+
+}
+.col-md-4{
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}

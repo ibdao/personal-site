@@ -8,3 +8,12 @@
     margin-left: auto;
     margin-right:auto;
 }
+
+img {
+    display: flex;
+    height: calc(50vh - 150px);
+    border-radius: 45%;
+}
+h1{
+    color:white;
+}
