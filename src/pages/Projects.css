@@ -12,3 +12,24 @@ div.row{
     padding-right: 150px;
     text-align: center;
 }
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Projects{
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
