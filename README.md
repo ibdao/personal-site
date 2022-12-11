@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+This is one of my projects that I am currently working on. 
+While there is some content that still needs to be added on the 'Projects' and 'About Me' page, this version of my website was built using React. 
+My first iteration of making a personal site was used using vanilla HTML and CSS. 
+
+Some additions I am working on is to create smoother transitions and animations between web pages. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
